@@ -1,0 +1,66 @@
+/* Basic styling for the donation page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.family-story {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.family-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 230px;
+}
+
+.donation-form {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    text-align: center; /* Center the donation form */
+    margin: auto; /* Center the donation form */
+    max-width: 300px; /* Adjust the maximum width of the form */
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Style the PayPal button container */
+#paypal-button-container {
+    text-align: center;
+}
+
+/* Style the PayPal button */
+#paypal-button {
+    padding: 1.5rem 3rem; /* Increase padding to make the button larger */
+    font-size: 18px; /* Increase font size for better visibility */
+    background-color: #0070ba;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block; /* Adjust display to fill width */
+    margin: auto; /* Center the button horizontally */
+}
+
+#paypal-button:hover {
+    background-color: #005688; /* Darker shade on hover */
+}
